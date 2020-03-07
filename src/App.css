@@ -1,0 +1,85 @@
+.extension, .title2 {
+    font-size: 16px;
+    position: relative;
+    z-index: 1;
+}
+
+#control-panel {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.vjs-fullscreen > .extension, .vjs-fullscreen > .title2  {
+    font-size: 36px;
+}
+
+.title2 > span {
+    display: block;
+    font-size: 1.2em;
+}
+
+.title2 {
+    opacity: 0;
+    transition: opacity .5s;
+}
+
+.title2.active {
+    opacity: 1;
+    transition: none;
+}
+
+.vjs-user-active > .extension {
+    visibility: visible;
+    opacity: 1;
+    transition: visibility .1s, opacity .1s; 
+}
+
+
+
+.vjs-user-inactive > .extension {
+    visibility: visible;
+    opacity: 0; /* change this later */
+    transition: visibility 1s, opacity 1s; 
+}
+
+#control-panel > button {
+    display:block;
+    font-size: 1.2em;
+    margin: 5px 0 5px;
+    cursor: pointer;
+}
+
+/* Buttons */
+
+.prevE:before {
+    font-family: "icomoon";
+    content: "\e905";
+}
+.nextE:before {
+    font-family: "icomoon";
+    content: "\e904";
+}
+.nextD:before {
+    font-family: "icomoon";
+    content: "\e901";
+}
+.prevD:before {
+    font-family: "icomoon";
+    content: "\e901";
+    transform: rotate(180deg);
+    display: inline-block;
+}
+.fEpp:before {
+    font-size: .6em;
+    font-family: "icomoon";
+    content: "\e902";
+}
+.lEpp:before {
+    font-size: .6em;
+    font-family: "icomoon";
+    content: "\e902";
+    transform: rotate(180deg);
+    display: inline-block;
+}
+
