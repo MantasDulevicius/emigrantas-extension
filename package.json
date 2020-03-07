@@ -9,11 +9,8 @@
     "assetsCopy": "cpx src/assets/** dist/assets",
     "manifestCopy": "cpx src/manifest.json dist"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/MantasDulevicius/emigrantas-extension.git"
-  },
-  "author": "",
+  "repository": "git+https://github.com/MantasDulevicius/emigrantas-extension.git",
+  "author": "Mantas <fumis887@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/MantasDulevicius/emigrantas-extension/issues"
